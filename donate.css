@@ -1,0 +1,53 @@
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+    --m1: 100px;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    color: var(--black);
+}
+body {
+    margin: 100px 250px;
+}
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.casuta-1,
+.casuta-2,
+.casuta-3,
+.casuta-4 {
+    border: 3px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: #ffc600;
+    padding: 50px;
+    padding-left: 120px;
+}
+
+
+.tabel{
+    display:grid;
+    height:400px;
+    grid-gap:30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+.back {
+    background-color: #ffc600;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 20%;
+}
+.back:hover {
+    background-color: chartreuse;
+}

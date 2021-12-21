@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 228, 228);;
+    background-size: cover;
+    width: 100%;
+    margin: 0%;
+}
+.first-line {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0px;
+}
+.first-line-ul {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 400px 300px auto 300px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240, 228, 228);
+}
+.first-line-ul li {
+    display: inline-block;
+    margin: 10px 10px;
+    color: rgb(85, 73, 73);
+}
+.first-line-ul li a {
+    text-decoration: none;
+    color:rgb(43, 38, 38);
+}
+.first-line-ul li a:hover {
+    color:#a15541;
+}
+.nav-bar {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    background-color: rgb(43, 38, 38);
+    display:flex;
+    justify-content: space-between;
+
+}
+.nav-bar-ul {
+    display: grid;
+    grid-template-columns: auto 100px 200px 150px 100px 100px;
+    list-style: none;
+    padding: 0;
+    margin-top: 50;
+    gap: 30px;
+    margin-right: 50px;
+}
+.nav-bar li {
+    display: inline-block;
+    margin: 50px 0px;
+    color: rgb(236, 217, 217);;
+}
+.nav-bar li a {
+    text-decoration: none;
+    color: rgb(236, 217, 217); ;
+    text: bold;
+}
+.nav-bar li a:hover {
+    color: #d49c6b;
+}
+.logo-bwf {
+    width:300px;
+    margin: 15px 50px;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    border: 20px solid rgb(240, 228, 228);
+    grid-template-areas:
+    "left-side-1 left-side-1 right-side right-side right-side"
+    "left-side-2 left-side-2 right-side right-side right-side"
+    "volunteers title title title title"
+    "volunteers ad1 ad2 ad3 ad4";
+}
+.right-side {
+     display: flex;
+     flex-direction: column;
+     grid-area: right-side;
+     min-height: 450px;
+     align-items: flex-start;
+     justify-content: center;
+     background-image: url(1.jpg);
+     background-size: cover;
+     background-position: center;
+     padding: 20px;     
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 90, 62);
+    padding: 10px;
+    color: black;
+}
+.left-side-1 {
+    grid-area: left-side-1;
+}
+.left-side-2 {
+    grid-area: left-side-2;
+}
+.buton {
+    background-color: rgb(85, 45, 26);
+    text-decoration: none;
+    color: rgb(236, 217, 217);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.volunteers {
+    grid-area: volunteers;
+    padding-top: 100px;
+    background-color: rgb(139, 90, 62);
+    text-align: center;
+}
+.title {
+    grid-area: title;
+    background-color: rgb(139, 90, 62);
+}
+
+.ad1 {
+    grid-area: ad1;
+}
+
+.ad2 {
+    grid-area: ad2;
+}
+
+.ad3 {
+    grid-area: ad3; 
+}
+
+.ad4 {
+    grid-area: ad4;
+}
+footer{
+    background-color: rgb(43, 38, 38);;
+    color: rgb(236, 217, 217);
+    text-align: center;
+}

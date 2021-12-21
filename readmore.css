@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+   
+}
+
+.articole{
+    display: grid;
+    gap: 50px;
+    padding: 50px 250px;
+    text-align: left;
+    background-color:rgb(240, 228, 228); 
+    grid-template-areas: 
+    "caz-1 articol-1 articol-1 articol-1"
+    "articol-2 articol-2 articol-2 caz-2"
+    "caz-3 articol-3 articol-3 articol-3";
+}
+.caz-1{
+    grid-area: caz-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(230, 205, 205);  
+}
+.artiol-1{
+    grid-area: articol-1;
+
+}
+.caz-2 {
+    grid-area: caz-2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 205, 205);  
+}
+.articol-2 {
+    grid-area: articol-2;
+}
+.caz-3 { 
+    grid-area: caz-3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(230, 205, 205);  
+}
+.articol-3 {
+    grid-area: articol-3;
+}
+h2 {
+    color: rgb(124, 81, 55);
+}

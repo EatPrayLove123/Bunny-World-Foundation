@@ -1,0 +1,54 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.tot{
+   
+    gap: 10px;
+    padding: 50px 250px;
+    background-color:rgb(240, 228, 228);
+}
+
+
+text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.caz-1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(230, 205, 205);  
+}
+.artiol-1{
+    grid-area: articol-1;
+
+}
+.caz-2 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 205, 205);  
+}
+.articol-2 {
+    
+}
+.caz-3 { 
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(230, 205, 205);  
+}
+.articol-3 {
+    grid-area: articol-3;
+}
+h2 {
+    color: rgb(124, 81, 55);
+}

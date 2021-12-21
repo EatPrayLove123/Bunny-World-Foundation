@@ -1,0 +1,14 @@
+body{
+    
+    background-image: url(WhatsApp\ Image\ 2021-07-12\ at\ 22.25.34.png) ;
+}
+h1{
+    background-color:#252b31 ;
+    color: #d49c6b ;
+    margin-top: 400px;
+}
+.titlu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
